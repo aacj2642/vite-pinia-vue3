@@ -4,6 +4,15 @@
   </div>
 </template>
 
+<script>
+import AOS from "aos"
+
+export default {
+  mounted(){
+    AOS.init()
+  }
+}
+</script>
 <style>
 @media (min-width: 1024px) {
   .about {
